@@ -15,13 +15,11 @@ Array.from(rows).forEach(row => {
     if (rowHour) {
         // compares row id to current hour and sets color
         if (currentHour === rowHour) {
-           setColor(row, "red");
-        } else if ((currentHour < rowHour) && (currentHour > rowHour - 6)) {
-            setColor(row, "green");
-        } else if ((currentHour > rowHour) && (currentHour < rowHour + 6)) {
-            setColor(row, "lightgrey");
+           setColor(row, "#ff6961");
+        } else if ((currentHour < rowHour)) {
+            setColor(row, "#77dd77");
         } else {
-            setColor(row, "white");
+            setColor(row, "#d3d3d3");
         }
     }
 });
