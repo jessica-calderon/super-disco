@@ -5,6 +5,8 @@ $("#currentDay").html(todaysDate);
 
 var rows = document.getElementsByClassName("row");
 var currentHour = parseInt(moment().format('H'));
+var saveBtn = $(".saveBtn");
+var txtEntry = $(".text-entry");
 
 Array.from(rows).forEach(row => {
     var rowIdString = row.id, 
@@ -23,6 +25,7 @@ Array.from(rows).forEach(row => {
         }
     }
 });
+
 
 function setColor(element, color) {
     element.style.backgroundColor = color;
