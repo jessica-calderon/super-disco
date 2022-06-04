@@ -2,6 +2,10 @@
 
 ## Description
 * A simple calendar application that allows the user to save events for each hour of the day. 
+    * Timeblocks change background color based on the time of day. 
+        * Current hour - Red
+        * Past hours - Grey
+        * Future hours - Green
 
 ## Built With
 * HTML
@@ -11,6 +15,7 @@
 * Moment.js
 
 ## Website
+https://jessica-calderon.github.io/work-day-scheduler/
 
 ## Website Preview
 
