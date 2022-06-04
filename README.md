@@ -10,15 +10,21 @@
 ## Built With
 * HTML
 * CSS
+* Bootstrap
 * JavaScript
 * jQuery
 * Moment.js
+
 
 ## Website
 https://jessica-calderon.github.io/work-day-scheduler/
 
 ## Website Preview
-
+![index](./assets/images/work-day-scheduler.gif)
 ## Contribution
-### Made with love by Jessica E. Calderon
+## Made with love by Jessica E. Calderon
+
+## Additional Contribution
+* Font Awesome Icons
+* Google Fonts 
 
