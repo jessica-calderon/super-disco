@@ -1,4 +1,4 @@
-// load index and css
+// load index and css first
 $(document).ready(function () {
 
 // var for date format Day, Month, date 
